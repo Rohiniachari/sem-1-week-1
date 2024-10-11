@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with ID Selectors</title>
+    <style>
+        
+        #first-name {
+            border: 2px solid blue; 
+            padding: 10px; 
+            width: 200px; 
+        }
+
+        #last-name {
+            border: 2px solid green; 
+            padding: 10px; 
+            width: 200px; 
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Contact Form</h1>
+    <form>
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name" name="first-name"><br><br>
+
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name" name="last-name"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
